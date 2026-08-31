@@ -18,7 +18,7 @@ const RightContent = () => {
   }
 ];
   return (
-    <div className="w-full lg:w-1/2 flex flex-col lg:h-[calc(100vh-330px)] lg:max-h-[500px]">
+    <div className="w-full lg:w-1/2 flex flex-col lg:max-h-[500px]">
       <div className="mt-0 lg:mt-5 flex flex-1 min-h-0 flex-col border border-gray-200 rounded-xl px-4 sm:px-5 py-3">
         <h2 className="text-2xl sm:text-3xl mb-5">Skills</h2>
         <div className="skills-list overflow-y-auto pr-1">

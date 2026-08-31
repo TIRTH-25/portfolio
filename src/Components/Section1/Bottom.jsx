@@ -4,7 +4,7 @@ import RightContent from "./RightContent"
 
 const Bottom = () => {
   return (
-    <div className="flex flex-col lg:flex-row gap-5">
+    <div className="flex flex-col lg:flex-row gap-5 lg:items-start">
         <LeftContent />
         <RightContent />
     </div>
