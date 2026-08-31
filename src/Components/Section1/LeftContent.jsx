@@ -6,8 +6,8 @@ const projects = [
     date: "June 2026",
     description:
       "An object-oriented Python banking application that simulates day-to-day ATM operations.",
-    // details:
-    //   "Built account management, authentication, deposits, withdrawals, and balance tracking with a modular class design.",
+    details:
+      "Built account management, authentication, deposits, withdrawals, and balance tracking with a modular class design.",
     stack: ["Python", "OOP", "Authentication"],
   },
   {
@@ -15,16 +15,16 @@ const projects = [
     date: "July 2025 – Nov 2025",
     description:
       "A final-year project website for an AI-powered voice assistant designed for visually impaired users.",
-    // details:
-    //   "Designed and developed an accessible, responsive frontend that communicates the product's voice-first experience.",
+    details:
+      "Designed and developed an accessible, responsive frontend that communicates the product's voice-first experience.",
     stack: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "Fake News Detector",
     date: "Jan 2025 – Mar 2025",
     description: "An ML web app that classifies news content as real or fake.",
-    // details:
-    //   "Used Logistic Regression and TF-IDF vectorization for text analysis, with NLTK handling text preprocessing.",
+    details:
+      "Used Logistic Regression and TF-IDF vectorization for text analysis, with NLTK handling text preprocessing.",
     stack: ["Python", "Streamlit", "Scikit-learn", "NLTK"],
   },
   {
@@ -32,8 +32,8 @@ const projects = [
     date: "July 2024 – Dec 2024",
     description:
       "A web-based scheduling interface for managing and viewing schedules interactively.",
-    // details:
-    //   "Developed the frontend with a clean, responsive experience for exploring schedule information.",
+    details:
+      "Developed the frontend with a clean, responsive experience for exploring schedule information.",
     stack: ["HTML", "CSS", "JavaScript"],
   },
 ];

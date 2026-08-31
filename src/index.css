@@ -10,16 +10,16 @@ h1, h2 {
 }
 
 .project-viewer { display: flex; min-height: 315px; flex: 1; min-height: 0; flex-direction: column; padding: 1.35rem; border-radius: 1rem; color: white; background: #111; }
-.project-viewer__content { display: flex; min-height: 0; flex: 1; flex-direction: column; overflow-y: auto; padding-right: .25rem; }
+.project-viewer__content { display: flex; flex-direction: column; overflow-y: auto; padding-right: .25rem; }
 .project-viewer__date { margin: 0; color: #a3a3a3; font-size: .75rem; }
 .project-viewer h3 { margin: .55rem 0 .75rem; font-size: 1.5rem; font-weight: 600; line-height: 1.25; }
 .project-viewer__summary { margin: 0; color: #e5e5e5; font-size: .92rem; line-height: 1.55; }
-/* .project-viewer__details { margin: .8rem 0 0; color: #a3a3a3; font-size: .78rem; line-height: 1.5; } */
-.project-viewer__stack { margin-top: auto; padding-top: 1rem; border-top: 1px solid rgb(255 255 255 / .2); }
+.project-viewer__details { margin: .8rem 0 0; color: #a3a3a3; font-size: .78rem; line-height: 1.5; }
+.project-viewer__stack { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgb(255 255 255 / .2); }
 .project-viewer__stack > p { margin: 0; color: #a3a3a3; font-size: .68rem; font-weight: 600; letter-spacing: .13em; text-transform: uppercase; }
 .project-viewer__stack > div { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .55rem; }
 .project-viewer__stack span { padding: .25rem .45rem; border: 1px solid rgb(255 255 255 / .25); border-radius: .45rem; color: #e5e5e5; font-size: .68rem; }
-.project-viewer__controls { display: flex; justify-content: space-between; margin-top: 1rem; }
+.project-viewer__controls { display: flex; justify-content: space-between; margin-top: auto; padding-top: 1rem; }
 .project-viewer__controls button { display: inline-flex; align-items: center; gap: .35rem; padding: .5rem .65rem; border: 1px solid rgb(255 255 255 / .25); border-radius: .55rem; color: white; background: transparent; font-size: .75rem; cursor: pointer; transition: color 180ms ease, background-color 180ms ease; }
 .project-viewer__controls button:hover { color: #111; background: white; }
 .project-viewer__controls button:focus-visible { outline: 2px solid white; outline-offset: 3px; }
