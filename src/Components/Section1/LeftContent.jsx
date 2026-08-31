@@ -67,7 +67,7 @@ const LeftContent = () => {
           </p>
           <h3>{project.title}</h3>
           <p className="project-viewer__summary">{project.description}</p>
-          {/* <p className="project-viewer__details">{project.details}</p> */}
+          <p className="project-viewer__details">{project.details}</p>
           <div className="project-viewer__stack">
             <p>Tech stack</p>
             <div>
