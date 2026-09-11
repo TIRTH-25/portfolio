@@ -39,7 +39,7 @@ const Navbar = () => {
           target="_blank"
           rel="noreferrer"
           aria-label="LeetCode profile"
-          className="h-9 w-9 flex items-center justify-center bg-gray-100 hover:bg-gray-200 border border-gray-200/80 rounded-xl transition-colors"
+          className="h-9 w-9 flex items-center justify-center bg-gray-100 hover:bg-gray-200 border border-gray-200/80 rounded-xl transition-colors active:scale-90"
         >
           <img
             className="h-4 w-4"
@@ -53,7 +53,7 @@ const Navbar = () => {
           target="_blank"
           rel="noreferrer"
           aria-label="GitHub profile"
-          className="h-9 w-9 flex items-center justify-center bg-gray-100 hover:bg-gray-200 border border-gray-200/80 rounded-xl text-lg text-gray-800 transition-colors"
+          className="h-9 w-9 flex items-center justify-center bg-gray-100 hover:bg-gray-200 border border-gray-200/80 rounded-xl text-lg text-gray-800 transition-colors active:scale-90"
         >
           <i className="ri-github-fill" />
         </a>
@@ -63,7 +63,7 @@ const Navbar = () => {
           target="_blank"
           rel="noreferrer"
           aria-label="LinkedIn profile"
-          className="h-9 w-9 flex items-center justify-center bg-gray-100 hover:bg-gray-200 border border-gray-200/80 rounded-xl text-lg text-gray-800 transition-colors"
+          className="h-9 w-9 flex items-center justify-center bg-gray-100 hover:bg-gray-200 border border-gray-200/80 rounded-xl text-lg text-gray-800 transition-colors active:scale-90"
         >
           <i className="ri-linkedin-fill" />
         </a>
