@@ -9,17 +9,19 @@ const About = () => {
         border border-gray-200
         rounded-xl
         px-4 sm:px-5
-        py-5 sm:py-3
-        gap-5 sm:gap-8"
+        py-5 sm:py-4
+        gap-5 sm:gap-8 bg-white"
     >
       <img
-        className="h-40 w-40 sm:h-44 sm:w-44 lg:h-52 lg:w-52 object-cover rounded-2xl shrink-0"
+        className="h-36 w-36 sm:h-44 sm:w-44 lg:h-48 lg:w-48 object-cover rounded-2xl shrink-0 border border-gray-100"
         src={profile}
-        alt=""
+        alt="Tirth Patel"
       />
-      <div>
-        <h2 className="text-2xl sm:text-3xl mb-3">About Me</h2>
-        <p className="text-base sm:text-lg text-gray-500">
+      <div className="text-center sm:text-left">
+        <h2 className="text-2xl sm:text-3xl font-serif mb-2 text-neutral-900">
+          About Me
+        </h2>
+        <p className="text-sm sm:text-base text-gray-500 leading-relaxed ">
           I'm a Full-Stack Developer with a background in Computer Science. I
           have hands-on experience across the MERN stack, .NET, MySQL, and
           Python, and enjoy building clean, engaging web applications. I've also
