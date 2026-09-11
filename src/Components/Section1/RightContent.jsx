@@ -14,7 +14,7 @@ const RightContent = () => {
   },
   {
     label: "Tools",
-    skills: ["Git", "GitHub", "Postman", "Docker"]
+    skills: ["Git", "GitHub", "Postman"]
   }
 ];
   return (
